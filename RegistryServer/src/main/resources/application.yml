@@ -1,0 +1,13 @@
+# Tomcat port no
+server:
+  port: 4567
+
+
+# configure service discovery server here
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    register-with-eureka: false
+    fetch-registry: false
